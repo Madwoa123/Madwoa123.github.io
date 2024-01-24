@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #8e9191;
+    color: #fff;
+}
+@media print {
+    header{
+    width: 100%;
+    height: 100vh;
+    }
+}
+footer{
+    background-color: #050505;
+    padding: 50px;
+    text-align: center;
+}
+.home-page {
+    background-image: url(Pictures/image6.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 80%;
+  }
+.container1{
+    padding: -10px 10%;
+}
+.container2{
+    padding: -10px 10%;
+}
+.container3{
+    column-gap: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 400px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+}
+
+nav ul li a{
+    color: #030303;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #030303;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    color: #030303;
+    margin-top: 0;
+    font-size: 30px;
+    padding: 100px 10%;
+}
+
+.title{
+    color: #030303;
+    margin-top: 0;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+#about{
+    padding: 0;
+    color: #ababab;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 0px; 
+}
+
+.about-col-11{
+    flex-basis: 35%;
+}
+.about-col-11 img{
+    width: 450px; 
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.about-col-12{
+    flex-basis: 35%;
+}
+.about-col-12 img{
+    width: 450px; 
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.about-col-13{
+    flex-basis: 35%;
+}
+.about-col-13 img{
+    width: 500px; 
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+}
+
+.about-col-2{
+    flex-basis: 60%;        
+    margin-top: 50px; 
+}
+.projects-col-1{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 50px; 
+    margin-left: 50px;
+}
+.projects-col-2{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 50px; 
+    margin-right: 165px;
+}
+.projects-col-3{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 50px; 
+    margin-left: 100px;
+}
+.projects-col-4{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 50px; 
+    margin-right: 165px;
+}
+.projects-col-5{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: -170px; 
+    margin-right: 50px;
+}
+.projects-col-6{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: -200px; 
+    margin-left: 150px;
+}
+.projects-col-7{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: -100px; 
+    margin-left: 100px;
+}
+.projects-col-8{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: -150px; 
+    margin-right: 165px;
+}
+
+.projects-col-9{
+    width: 450px; 
+    height: 500px;
+    border-radius: 15px;
+    margin-top: -150px; 
+    margin-left: 50px;
+}
+.projects-col-10{
+    border-radius: 15px;
+    margin-top: -150px; 
+    margin-right: 50px;
+}
+
+.sub-title{
+    color: #040404;
+    font-style: italic;
+}
+
+.description{
+    color: #040404;
+    width: 98%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.projdescription{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 25px script;
+    font-style: italic;
+}
+.custom-line {
+    border: 2px solid #333; /* Customize line color, thickness, etc. */
+    margin: 20px 0; /* Adjust margin to control spacing around the line */
+  }
+
+.projecttitle{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 55px script;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.footertitle{
+    color: #fdfcfc;
+    width: 100%;
+    text-align: center;
+    font: 55px script;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.projdescription2{
+    color: #040404;
+    width: 90%;
+    text-align: center;
+    font: 25px script;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.projecttitle2{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 55px script;
+    font-style: italic;
+    margin-top: -150px;
+}
+.projecttitle3{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 40px script;
+    font-style: italic;
+    margin-top: 20px;
+}
+.projdescription3{
+    color: #040404;
+    width: 150%;
+    text-align: center;
+    font: 25px script;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-left: -100px;
+}
+
+.projecttitle4{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 40px script;
+    font-style: italic;
+    margin-top: 20px;
+}
+.projdescription4{
+    color: #040404;
+    width: 150%;
+    text-align: center;
+    font: 25px script;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-left: -100px;
+}
+
+.projecttitle5{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 40px script;
+    font-style: italic;
+    margin-top: 20px;
+}
+.projdescription5{
+    color: #040404;
+    width: 150%;
+    text-align: center;
+    font: 20px script;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-left: -100px;
+}
+
+.projdescription6{
+    color: #040404;
+    width: 90%;
+    text-align: center;
+    font: 25px script;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.projecttitle6{
+    color: #040404;
+    width: 100%;
+    text-align: center;
+    font: 55px script;
+    font-style: italic;
+    margin-top: -150px;
+}
+.copyright{
+    margin-left: -800px;
+    margin-top: 50px;
+}
+  
+ 
